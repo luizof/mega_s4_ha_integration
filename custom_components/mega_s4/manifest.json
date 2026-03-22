@@ -1,0 +1,13 @@
+{
+  "domain": "mega_s4",
+  "name": "MEGA S4 Object Storage",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["backup"],
+  "documentation": "https://github.com/meganz/s4-specs",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "loggers": ["aiobotocore"],
+  "requirements": ["aiobotocore==2.21.1"],
+  "version": "1.0.0"
+}

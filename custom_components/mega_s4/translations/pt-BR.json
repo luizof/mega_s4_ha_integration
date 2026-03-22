@@ -1,0 +1,48 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Este bucket MEGA S4 já está configurado."
+    },
+    "error": {
+      "cannot_connect": "Não foi possível conectar ao MEGA S4. Verifique a região e a conexão de rede.",
+      "invalid_bucket_name": "Nome de bucket inválido.",
+      "invalid_credentials": "Não foi possível acessar o bucket com as credenciais fornecidas. Verifique o Access Key ID e o Secret Access Key.",
+      "invalid_region": "Região selecionada inválida.",
+      "unknown": "Ocorreu um erro inesperado."
+    },
+    "step": {
+      "user": {
+        "title": "Adicionar bucket MEGA S4",
+        "description": "Configure um bucket MEGA S4 Object Storage como destino de backup. Você precisa de uma assinatura MEGA S4 ativa e credenciais IAM.",
+        "data": {
+          "access_key_id": "Access Key ID",
+          "secret_access_key": "Secret Access Key",
+          "bucket": "Nome do bucket",
+          "region": "Região",
+          "prefix": "Prefixo (pasta)"
+        },
+        "data_description": {
+          "access_key_id": "Access Key ID IAM da sua conta MEGA S4.",
+          "secret_access_key": "Secret Access Key IAM da sua conta MEGA S4.",
+          "bucket": "Nome do bucket S4. O bucket já deve existir.",
+          "region": "Região do data center MEGA S4.",
+          "prefix": "Prefixo de pasta opcional para armazenar backups, por exemplo 'homeassistant/backups'."
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "cannot_connect": {
+      "message": "Não foi possível conectar ao endpoint MEGA S4."
+    },
+    "invalid_bucket_name": {
+      "message": "Nome de bucket inválido."
+    },
+    "invalid_credentials": {
+      "message": "Não foi possível acessar o bucket com as credenciais fornecidas."
+    },
+    "unknown": {
+      "message": "Ocorreu um erro inesperado."
+    }
+  }
+}
