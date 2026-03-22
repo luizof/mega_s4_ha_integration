@@ -5,9 +5,9 @@
   "config_flow": true,
   "dependencies": ["backup"],
   "documentation": "https://github.com/luizof/mega_s4_ha_integration",
-  "issue_tracker": "https://github.com/luizof/mega_s4_ha_integration/issues",
   "integration_type": "service",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/luizof/mega_s4_ha_integration/issues",
   "loggers": ["aiobotocore"],
   "requirements": ["aiobotocore==2.21.1"],
   "version": "1.0.0"
